@@ -1,0 +1,1 @@
+This example demonstrates a common error in PHP related to type juggling.  The `calculateSum` function intends to add numbers, but due to the presence of a string ('4') in the input array, PHP performs string concatenation instead of numerical addition.  The solution shows how to explicitly type hint and use strict comparison to avoid this problem.
